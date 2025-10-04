@@ -1,0 +1,212 @@
+html {
+  font-size: 11px;
+}
+
+body {
+  width: 90rem;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 1.875rem;
+  font-family: "DM Sans", sans-serif;
+  font-size: 500;
+  background-color: rgb(242, 241, 239);
+  margin: 0 auto;
+  box-sizing: border-box;
+  justify-content: center;
+  align-content: center;
+}
+
+.card-1 {
+  background-color: hsl(31, 66%, 93%);
+  font-size: 1.875rem;
+  grid-column: span 3 / span 3;
+  grid-row: span 3 / span 3;
+  padding: 3.125rem;
+  border-radius: 0.625rem;
+  font-size: 2.8125rem;
+  font-family: "League Spartan", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.quicker {
+  color: hsl(256, 67%, 59%);
+  padding-bottom: 0.9375rem;
+}
+
+.img-1 {
+  padding-top: 0.625rem;
+  width: 15.625rem;
+  height: 7.8125rem;
+}
+
+.card-2 {
+  padding: 1.875rem;
+  background-color: hsl(256, 67%, 59%);
+  font-size: 3.75rem;
+  color: white;
+  grid-column: span 6 / span 6;
+  grid-row: span 2 / span 2;
+  grid-column-start: 4;
+  grid-row-start: 1;
+  text-align: center;
+  border-radius: 0.625rem;
+  font-family: "League Spartan", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.x10 {
+  color: hsl(39, 100%, 71%);
+}
+
+.img-2 {
+  width: 15.625rem;
+}
+
+.p-2 {
+  font-size: 1.25rem;
+}
+
+.card-3 {
+  background-color: hsl(254, 88%, 90%);
+  grid-column: span 3 / span 3;
+  grid-row: span 4 / span 4;
+  grid-column-start: 10;
+  grid-row-start: 1;
+  font-size: 1.25rem;
+  padding: 1.875rem;
+  border-radius: 0.625rem;
+}
+
+.img-3 {
+  width: 18.75rem;
+  padding-top: 1.25rem;
+  border-radius: 1.25rem;
+  -webkit-border-radius: 1.25rem;
+  -moz-border-radius: 1.25rem;
+  -ms-border-radius: 1.25rem;
+  -o-border-radius: 1.25rem;
+}
+
+.title-3 {
+  font-size: 2.3125rem;
+  font-weight: bolder;
+  /* padding-bottom: 20px; */
+}
+
+.card-4 {
+  background-color: hsl(39, 100%, 71%);
+  font-size: 3.125rem;
+  font-family: "League Spartan", sans-serif;
+  font-style: normal;
+  padding: 1.875rem;
+  grid-column: span 3 / span 3;
+  grid-row: span 3 / span 3;
+  grid-column-start: 1;
+  grid-row-start: 4;
+  border-radius: 0.625rem;
+  display: flex;
+  align-content: start;
+  justify-content: start;
+  flex-direction: column;
+}
+
+.img-4 {
+  padding: 1.25rem;
+  padding-top: 2.5rem;
+  width: 15.625rem;
+  height: 15.625rem;
+}
+
+.card-5 {
+  background-color: hsl(0, 0%, 100%);
+  grid-column: span 3 / span 3;
+  grid-row: span 2 / span 2;
+  grid-column-start: 4;
+  grid-row-start: 3;
+  font-size: 2.5rem;
+  font-family: "League Spartan", sans-serif;
+  font-weight: bold;
+  text-align: left;
+  padding: 0.9375rem;
+  border-radius: 0.625rem;
+  -webkit-border-radius: 0.625rem;
+  -moz-border-radius: 0.625rem;
+  -ms-border-radius: 0.625rem;
+  -o-border-radius: 0.625rem;
+}
+
+.img-5 {
+  width: 20rem;
+  display: block;
+}
+
+.card-6 {
+  background-color: hsl(0, 0%, 100%);
+  text-align: center;
+  grid-column: span 3 / span 3;
+  grid-row: span 2 / span 2;
+  grid-column-start: 4;
+  grid-row-start: 5;
+  padding: 1.25rem;
+  font-size: 1.25rem;
+  border-radius: 0.625rem;
+}
+
+.img-6 {
+  width: 16.875rem;
+  padding-top: 3.125rem;
+}
+
+.p-6 {
+  padding-bottom: 0.625rem;
+  font-size: 5rem;
+}
+
+.card-7 {
+  background-color: hsl(39, 100%, 71%);
+  grid-column: span 3 / span 3;
+  grid-row: span 2 / span 2;
+  grid-column-start: 7;
+  grid-row-start: 3;
+  font-size: 2.5rem;
+  padding: 1.25rem;
+  border-radius: 0.625rem;
+  text-align: left;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-7 {
+  padding-top: 1.25rem;
+  width: 15.625rem;
+  padding-left: 1.875rem;
+}
+
+.card-8 {
+  background-color: hsl(256, 67%, 59%);
+  grid-column: span 6 / span 6;
+  grid-row: span 2 / span 2;
+  grid-column-start: 7;
+  grid-row-start: 5;
+  font-size: 3.125rem;
+  font-weight: bold;
+  color: white;
+  text-align: start;
+  border-radius: 0.625rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-8 {
+  padding: 1.5625rem;
+  width: 16.875rem;
+  height: 16.875rem;
+  align-items: center;
+  justify-content: center;
+}
